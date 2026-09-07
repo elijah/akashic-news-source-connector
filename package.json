@@ -2,7 +2,6 @@
   "name": "akashic-news-source-connector",
   "version": "1.0.0",
   "description": "News source connector for Akashic - Herald-Citizen, government meetings",
-  "private": true,
   "license": "AGPL-3.0-or-later",
   "main": "index.js",
   "exports": {
@@ -28,5 +27,16 @@
     "jest": "^29.0.0",
     "@types/jest": "^29.0.0",
     "ts-jest": "^29.0.0"
+  },
+  "files": [
+    "lib/**/*",
+    "app/**/*",
+    "components/**/*",
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
