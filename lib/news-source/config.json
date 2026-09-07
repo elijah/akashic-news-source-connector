@@ -1,0 +1,27 @@
+{
+  "name": "herald-citizen",
+  "version": "1.0.0",
+  "description": "Herald-Citizen Media Connector for Putnam County Civic Analysis",
+  "baseUrl": "https://www.heraldcitizen.com",
+  "politicsEndpoint": "/Politics",
+  "electionEndpoint": "/Election",
+  "governmentEndpoint": "/Government",
+  "civicEndpoint": "/Civic",
+  "scrapingSchedule": "daily",
+  "maxArticles": 50,
+  "dataCategories": [
+    "political_news",
+    "election_coverage",
+    "government_meetings",
+    "court_cases",
+    "civic_events"
+  ],
+  "parsing": {
+    "title": "h2.title",
+    "link": "a",
+    "content": ".article-content",
+    "date": ".date",
+    "source": ".source",
+    "category": ".category"
+  }
+}
